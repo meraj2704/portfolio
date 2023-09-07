@@ -54,6 +54,7 @@ const Banner = () => {
             <button className='btn btn-lg'>Contact me</button>
             <a href="#" className='text-gradient btn-link ml-4'>My Portfolio</a>
           </motion.div>
+          {/* social links */}
           <motion.div
           variants={fadeIn('up',0.5)}
           initial='hidden'
@@ -71,6 +72,7 @@ const Banner = () => {
             </a>
           </motion.div>
         </div>
+        {/* here is mine picture */}
         <motion.div
         variants={fadeIn('down',0.7)}
         initial='hidden'
