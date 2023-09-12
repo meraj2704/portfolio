@@ -4,6 +4,9 @@ import { fadeIn } from '../variants';
 import img1 from '../assets/portfolio-img1.png';
 import img2 from '../assets/portfolio-img2.png';
 import img3 from '../assets/portfolio-img3.png';
+import img4 from '../assets/portfolio.jpg';
+import img5 from '../assets/phone-hunter.jpg';
+import img6 from '../assets/ema-joh.jpg';
 
 
 const Work = () => {
@@ -24,8 +27,8 @@ const Work = () => {
           {/* image */}
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl mb-7'>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
-            <img className='group-hover:scale-125 transition-all duration-500' src={img1} alt="" />
-            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>UI/UX Design</span></div>
+            <img className='group-hover:scale-125 transition-all duration-500' src={img4} alt="" />
+            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>Portfolio</span></div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50'>
               <span className='text-3xl text-white'>Project Title</span>
             </div>
@@ -39,16 +42,16 @@ const Work = () => {
           className='flex-1 flex-col gap-y-10 '>
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl mb-7'>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
-            <img className='group-hover:scale-125 transition-all duration-500' src={img2} alt="" />
-            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>UI/UX Design</span></div>
+            <img className='group-hover:scale-125 transition-all duration-500' src={img5} alt="" />
+            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>Simple Web Page</span></div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50'>
               <span className='text-3xl text-white'>Project Title</span>
             </div>
           </div>
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
-            <img className='group-hover:scale-125 transition-all duration-500' src={img3} alt="" />
-            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>UI/UX Design</span></div>
+            <img className='group-hover:scale-125 transition-all duration-500' src={img6} alt="" />
+            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>Ema-John Page</span></div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50'>
               <span className='text-3xl text-white'>Project Title</span>
             </div>
