@@ -13,6 +13,10 @@
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
 
+.bg__service{
+  background-image: url('https://i.ibb.co/Df21rpH/image-6487327-removebg-preview.png');
+}
+
 .btn:hover {
   background: linear-gradient(
     92.23deg,
