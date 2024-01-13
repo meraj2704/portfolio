@@ -26,8 +26,8 @@ const Banner = () => {
           className='mb-6 text-[36px] md:text-[55px] xl:text-[60px] font-secondary font-semibold uppercase leading-[1] mt-4'>
             <span className='mr-4'>I am a </span>
             <TypeAnimation sequence={[
+              'MERN Developer', 2000,
               'Front-End Developer', 2000,
-              'Designer', 2000,
               'Problem Solver', 2000,
             ]}
               speed={50}
