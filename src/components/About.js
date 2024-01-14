@@ -65,8 +65,7 @@ const About = () => {
             </div>
           </div>
           <div className='flex gap-x-8 items-center'>
-            <button className='btn btn-lg'>Contact Me</button>
-            <a href="#" className='text-gradient btn-link'>My portfolio</a>
+          <a href='https://www.linkedin.com/in/meraj-hossain-6566b8231/'><button className='btn btn-sm'>Contact me</button></a>
           </div>
         </motion.div>
 

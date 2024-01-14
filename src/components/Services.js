@@ -29,7 +29,7 @@ const Services = () => {
         className='flex-1 lg:bg__service  bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
           <h2 className='h2 text-accent mb-6'>What I Do</h2>
           <h3 className='h3 max-w-[455px] mb-16 '>I'm a Freelancer Front-end developer with over 1 years of experience.</h3>
-          <button className='btn btn-sm'>See my work</button>
+          <a href='#work'><button className='btn btn-sm'>See my work</button></a>
         </motion.div>
         <motion.div
         variants={fadeIn('left', 0.3)}
@@ -47,7 +47,7 @@ const Services = () => {
                     <p className='font-secondary leading-tight'>{description}</p>
                   </div>
                   <div>
-                    <a href="#" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'><BsArrowUpRight/></a>
+                    <a href="https://github.com/IJE2704" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'><BsArrowUpRight/></a>
                     <a href="#" className='text-gradient text-sm'>{link}</a>
                   </div>
 
