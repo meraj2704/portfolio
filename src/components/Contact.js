@@ -2,7 +2,7 @@ import React from 'react';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants';
 const Contact = () => {
-  return <section className='py-16 lg:section mb-4' id='contact'>
+  return <section className='py-16 lg:section mb-10' id='contact'>
     <div className="container mx-auto">
       <div className='flex flex-col lg:flex-row'>
         <motion.div
