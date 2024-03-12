@@ -68,39 +68,39 @@ const Work = () => {
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
-                src="https://i.ibb.co/FV11CZW/412497379-1109164567161989-3804230388466391348-n.png"
+                src="https://i.ibb.co/G2w3BHJ/431233605-702845108710018-8723368363598236287-n.png"
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                 <div className=" flex justify-between items-center w-full">
-                  <p className="text-gradient pr-5">Gpt-3</p>{" "}
-                  <a href="https://gpt3-opal-theta.vercel.app/">
+                  <p className="text-gradient pr-5">POS Page</p>{" "}
+                  <a href="https://uw-pos-page.vercel.app/">
                     <button className="btn btn-sm ">Visit</button>
                   </a>
                 </div>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50">
-                <span className="text-3xl text-white">Gpt-3 Landing Page</span>
+                <span className="text-3xl text-white">POS Page</span>
               </div>
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
-                src="https://i.ibb.co/rZvV3T1/416754841-698336762098919-4812476798748202189-n.png"
+                src="https://i.ibb.co/rM46Cgk/429821028-725248366102359-2685298727193691867-n-1.png"
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                 <div className=" flex justify-between items-center w-full">
-                  <p className="text-gradient pr-5">HooBank</p>{" "}
-                  <a href="https://hoobank-eight-kappa.vercel.app/">
+                  <p className="text-gradient pr-5">LawFirm</p>{" "}
+                  <a href="https://lawfirm-main.vercel.app/">
                     <button className="btn btn-sm ">Visit</button>
                   </a>
                 </div>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50">
                 <span className="text-3xl text-white">
-                  HooBank Landing Page
+                  Lawfirm Project
                 </span>
               </div>
             </div>
